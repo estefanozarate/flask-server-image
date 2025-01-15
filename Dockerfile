@@ -14,8 +14,8 @@ COPY . .
 # Instala las dependencias de Python
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Exponer el puerto 5000
-EXPOSE 5000
+# Exponer el puerto 80
+EXPOSE 80
 
 # Comando para ejecutar la aplicación
 CMD ["python", "app.py"]
